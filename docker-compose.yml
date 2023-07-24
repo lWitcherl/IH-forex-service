@@ -3,8 +3,5 @@ version: '3'
 services:
   forex-service:
     build: ./
-    image: 'ih-forex-service'
+    image: 'witcherl/ih-forex-service'
     container_name: 'forex-service'
-    environment:
-      - SPRING_DATASOURCE_DRIVER-CLASS-NAME=org.postgresql.Driver
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/forex-service?useUnicode=true&characterEncoding=utf8&useSSL=false

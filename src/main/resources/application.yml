@@ -1,3 +1,6 @@
+server:
+  port: 0
+
 spring:
 
   application:
@@ -13,6 +16,12 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      docker: http://eureka-server:8761/eureka/
 
 logging:
   level:

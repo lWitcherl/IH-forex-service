@@ -1,6 +1,5 @@
 package ua.sikoraton.forexservice.dto.imports;
 
-import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
