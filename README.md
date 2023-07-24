@@ -1,6 +1,8 @@
 # IH-forex-service
 is a microservice for getting information about exchange rates, written within the InfoHub project to practice writing projects with microservice architecture.
+
 Dokker repository: docker pull witcherl/eureka-server:latest 
+
 End points for communication:
   receiving real currencies:
     /currency/all         GET
